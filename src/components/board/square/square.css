@@ -1,0 +1,38 @@
+.blackSquare {
+  height: 95px;
+  width: 95px;
+  background: rgb(41, 40, 40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.whiteSquare {
+  height: 95px;
+  width: 95px;
+  background: rgb(243, 236, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.blackSquare .squareName {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(19, 111, 187);
+  color: #fff;
+  width: 10px;
+  height: 1px;
+  font-size: 15px;
+}
+.whiteSquare .squareName {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(19, 111, 187);
+  color: #000;
+  width: 10px;
+  height: 1px;
+  font-size: 15px;
+}
